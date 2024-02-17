@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>两个区域的页面</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .header {
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            display: block;
+            width: 100%;
+        }
+
+        .header h2 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .content h3 {
+            margin-top: 0;
+        }
+
+        .content p {
+            margin-top: 10px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .button {
+            width: 150px;
+            height: 50px;
+            border-radius: 5px;
+            background: #007bff;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="image.jpg" alt="Image">
+            <h2>标题</h2>
+        </header>
+        <div class="content">
+            <h3>这里是标题</h3>
+            <p>
+                这里是文字介绍。
+            </p>
+            <div class="buttons">
+                <button class="button">按钮一</button>
+                <button class="button">按钮二</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
